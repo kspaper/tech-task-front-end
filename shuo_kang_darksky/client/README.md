@@ -37,8 +37,6 @@ In order to make the application work properly
 P.S.: As Math function has been used for Precipitation and Humidity, both of them has been rounded up to integer.
 If Precipitation is 0 ,the original value may be too small.
 
-4. screenshot
 
-
-6.  and clinet using 3000 
-
+Here is my screen shot:
+![](screenshot_darksky)
