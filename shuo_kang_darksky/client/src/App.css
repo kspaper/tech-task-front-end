@@ -1,0 +1,135 @@
+.wrapper {
+  margin: 0;
+}
+
+.main{
+  height: auto;
+ 
+}
+
+.left-container{
+  padding-top: 15px;
+}
+
+.left-container__title {
+  font-size: 24px;
+  color: grey;
+  font-weight: 580;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.0 em;
+}
+
+.left-container__subtitle {
+  font-size: 16px;
+  color: grey;
+  line-height: 0.5em;
+  font-weight: 565;
+}
+
+.left-container__icon {
+  max-width:80px;
+  overflow: hidden;
+  padding-top:20px;
+  padding-left: 5px;
+  padding-right: 10px;
+  float: left;
+  width: 50%;
+}
+.left-container__temp {
+  float: left;
+  width: 50%;
+  color: black;
+  font-size: 72px;
+  font-weight: 540;
+}
+
+.c__info {
+  padding-top:20px;
+  color: black;
+  font-size: 18px;
+  font-weight: 545;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.f__info {
+  padding-top:20px;
+  color: blue;
+  font-size: 18px;
+  font-weight: 545;
+  display: inline-block;
+  vertical-align: top;
+}
+
+img{
+  width: 100%;
+  object-fit:contain;
+}
+
+.right-container{
+  padding-top: 110px;
+}
+
+.right-container__contents {
+  font-size: 16px;
+  color: grey;
+  font-weight: 565;
+  line-height: 0.8em;
+  
+}
+
+.right-container__buttons {
+  display: -ms-inline-grid;
+  margin-top: 20px;
+}
+
+.btn {
+  font-family: Arial;
+  color: #171617;
+  font-size: 20px;
+  background: #f0f0f0;
+  padding: 5px 10px 5px 10px;
+  border: solid #cfcfcf 1px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background:#8f8f8f;
+  background-image: -webkit-linear-gradient(top, #8f8f8f, #8f8f8f);
+  background-image: -moz-linear-gradient(top, #8f8f8f, #8f8f8f);
+  background-image: -ms-linear-gradient(top, #8f8f8f, #8f8f8f);
+  background-image: -o-linear-gradient(top, #8f8f8f, #8f8f8f);
+  background-image: linear-gradient(to bottom, #8f8f8f, #8f8f8f);
+  text-decoration: none;
+}
+
+.loadingpg {
+  margin: auto;
+  overflow: hidden;
+  width:50%;
+  padding-top:20px;
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+  color: black;
+  font-size: 36px;
+  font-weight: 500;
+  height: auto;
+
+}
+
+.loadingpg img{
+  width: 50%;
+  height: 50%;
+}
+
+.loadingloc {
+  margin: auto;
+  overflow: hidden;
+  height: 20px;
+}
+
+.loadingloc img{
+  width: 30px;
+  height: 20px;
+}

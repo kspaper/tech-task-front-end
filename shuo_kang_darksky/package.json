@@ -1,0 +1,24 @@
+{
+  "name": "shuo_kang_darksky",
+  "version": "1.0.0",
+  "description": "Technical Task for Wall Street",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "node server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \npm run server\" \"npm run client\""
+  },
+  "author": "Shuo Kang",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^3.6.0",
+    "es6-promise": "^4.2.4",
+    "express": "^4.16.3",
+    "isomorphic-fetch": "^2.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
