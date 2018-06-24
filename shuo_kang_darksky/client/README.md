@@ -39,4 +39,4 @@ If Precipitation is 0 ,the original value may be too small.
 
 
 Here is my screen shot:
-![](screenshot_darksky)
+![](images/screenshotdarksky.png)
